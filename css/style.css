@@ -62,7 +62,7 @@ a {
 /* MAIN */
 
 .top-page {
-    height: 800px;
+    min-height: 900px;
     position: relative;
 }
 
@@ -91,5 +91,41 @@ h1 {
 
 .prices {
     background-color: lightgrey;
+}
+
+.box-prices {
+    max-width: 1000px;
     min-height: 700px;
+    margin: 0 auto;
+}
+
+.container-prices{
+    background-color: white;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.col {
+    flex-basis: calc(100% / 3 - 40px);
+    border: 1px solid;
+    flex-grow: 1;
+}
+
+.col-title {
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+.col-content div{
+    margin: 30px 0 30px 30px;
+}
+
+.button-prova {
+    padding: 15px 40px;
+    margin: 0 auto;
+}
+
+.check {
+    color: blue;
 }
