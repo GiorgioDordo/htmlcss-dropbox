@@ -1,0 +1,67 @@
+/* reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    max-width: 1200px;
+    min-height: 400px;
+}
+
+/* GENERALS */
+
+img {
+    max-height:100%;
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+/* HEADER */
+
+.box-head {
+    min-height: 80px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.menu {
+    align-items: center;
+    gap: 20px;
+}
+
+.logo {
+    width: 127px;
+    height: 25px;
+
+}
+
+.button {
+    padding: 7px 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+/* MAIN */
+
+.top-page {
+    min-height: 600px;
+    background-color: lightblue;
+}
