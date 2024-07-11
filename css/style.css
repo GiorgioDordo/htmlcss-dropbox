@@ -6,10 +6,6 @@
     box-sizing: border-box;
 }
 
-body {
-
-}
-
 .flex {
     display: flex;
 }
@@ -17,13 +13,17 @@ body {
 .container {
     max-width: 1200px;
     min-height: 400px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: open-sans, sans-serif;
 }
 
 /* GENERALS */
 
 img {
-    max-height:100%;
-    margin-right: 20px;
+    max-width:100%;
 }
 
 a {
@@ -39,6 +39,7 @@ a {
     justify-content: space-between;
     align-items: center;
     margin: 0 20px;
+    margin-bottom: px;
 }
 
 .menu {
@@ -49,12 +50,11 @@ a {
 .logo {
     width: 127px;
     height: 25px;
-
 }
 
 .button {
     padding: 7px 10px;
-    background-color: blue;
+    background-color: rgb(2,97,255);
     color: white;
     border: none;
 }
@@ -62,6 +62,34 @@ a {
 /* MAIN */
 
 .top-page {
-    min-height: 600px;
-    background-color: lightblue;
+    height: 800px;
+    position: relative;
+}
+
+.special-layout {
+    min-height: 725px;
+    background-color: rgb(180,208,231);
+}
+
+h1 {
+    font-size: 5.8em;
+    padding-top: 60px;
+    margin-bottom: 50px;
+}
+
+.button-start {
+    margin: 50px 0;
+}
+
+.start-image {
+    width: 70%;
+    float: right;
+}
+
+
+/* Section prices */
+
+.prices {
+    background-color: lightgrey;
+    min-height: 700px;
 }
