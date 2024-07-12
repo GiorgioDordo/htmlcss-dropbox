@@ -20,7 +20,7 @@ body {
     font-family: open-sans, sans-serif;
 }
 
-/* GENERALS */
+/* GENERiICS */
 
 img {
     max-width:100%;
@@ -31,34 +31,32 @@ a {
     color: black;
 }
 
-
 /* HEADER */
 
-header {
+.main-header {
+    min-height: 80px;
+    justify-content: space-between;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    padding: 20px;
+
     position: sticky;
-    z-index: 1;
     top: 0;
     left: 0;
     right: 0;
-    background-color: white;
+    z-index: 1;
 }
 
-.box-head {
-    min-height: 80px;
-    justify-content: space-between;
+img {
+    max-width: 100%;
+}
+
+.main-header ul {
+    list-style-type: none;
+    flex-direction: row;
     align-items: center;
-    margin: 0 20px;
-    margin-bottom: px;
-}
-
-.menu {
-    align-items: center;
-    gap: 20px;
-}
-
-.logo {
-    width: 127px;
-    height: 25px;
+    gap: 30px;
 }
 
 .button {
