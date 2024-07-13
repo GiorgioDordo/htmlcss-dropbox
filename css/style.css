@@ -37,6 +37,16 @@ ul {
     align-items: center;
 }
 
+h2 {
+    font-size: 38px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+
 /* HEADER */
 
 .main-header {
@@ -72,15 +82,18 @@ img {
     border: none;
 }
 
-h2 {
-    font-size: 38px;
-}
 
 /* MAIN */
 
 .top-page {
     min-height: 900px;
     position: relative;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 400px;
 }
 
 .special-layout {
@@ -106,6 +119,10 @@ h1 {
 
 /* Section prices */
 
+.prices {
+    margin-bottom: 150px;
+}
+
 .box-prices {
     max-width: 1000px;
     min-height: 700px;
@@ -120,7 +137,7 @@ h1 {
 }
 
 .col {
-    flex-basis: calc(100% / 3 - 100px);
+    flex-basis: calc(100% / 3 - 100px / 3);
     border: 1px solid lightgrey;
     flex-grow: 1;
 }
@@ -131,7 +148,7 @@ h1 {
 }
 
 .col-content {
-    flex-basis: 80%;
+    max-width: 80%;
     margin-left: 30px;
     margin-top: 40px;
     margin-bottom: 100px;
@@ -176,7 +193,6 @@ h1 {
 }
 
 .billing {
-    margin-top: 50px;
     margin-bottom: 50px;
     align-items: center;
 }
@@ -185,12 +201,71 @@ h1 {
     color: blue;
 }
 
-.col-enterprise-team {
-    flex-direction: row;
+.button-last {
+    padding: 15px 40px;
+    margin-right: -70px;
+}
+
+.last-column {
     justify-content: space-between;
 }
 
-.flex-last-column {
-    justify-content: space-between;
+
+/* CONTACT */
+
+.contact {
+    margin-bottom: 150px;
+}
+
+.contact-dropbox {
+    margin: 0 auto;
+    max-width: 1000px;
+    min-height: 400px;
+}
+
+.image {
+    flex-basis: 55%;
+}
+
+.box-explanation {
+    flex-basis: 45%;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.explanation {
+    flex-basis: 80%;
+    flex-direction: column;
+    gap: 20px;
     align-items: flex-start;
 }
+
+
+.button-contact {
+    padding: 10px 10px;
+    background-color: white;
+}
+
+/* OPERATIONS */
+
+.operations {
+    margin-bottom: 150px;
+}
+
+.container-operations {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.box-operations {
+    gap: 20px;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.row-op {
+    flex-basis: calc(100% / 3 - 40px / 3);
+    flex-direction: column;
+    gap: 40px;
+}
+
