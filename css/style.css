@@ -400,7 +400,7 @@ footer {
 }
 
 .container-foot {
-    max-widrgba(255, 255, 255, 0.479)200px;
+    max-width: 1200px;
     min-height: 300px;
     margin: 0 auto;
     padding-top: 100px;
