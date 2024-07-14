@@ -26,11 +26,6 @@ img {
     max-width:100%;
 }
 
-a {
-    text-decoration: none;
-    color: black;
-}
-
 ul {
     list-style-type: none;
     flex-direction: row;
@@ -62,6 +57,11 @@ h3 {
     left: 0;
     right: 0;
     z-index: 1;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
 }
 
 img {
@@ -277,11 +277,6 @@ h1 {
     margin-bottom: 150px;
 }
 
-.container-title a {
-    text-decoration: underline;
-    color: blue;
-}
-
 .partners {
     min-height: 500px;
 }
@@ -364,6 +359,7 @@ h1 {
     margin: 0 auto;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 150px;
 }
 
 .container-free-period h2 {
@@ -377,7 +373,24 @@ h1 {
     margin-bottom: 100px;
 }
 
-/* WHY? */
+/* QUESTIONS */
+
+.container-questions {
+    max-width: 1000px;
+    margin: 0 auto;
+    margin-bottom: 150px;
+}
+
+.line-questions {
+    width: 100%;
+    border-bottom: 1px solid;
+}
+
+.question-list {
+    justify-content: space-between;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
 
 /* FOOTER */
 
@@ -387,7 +400,7 @@ footer {
 }
 
 .container-foot {
-    max-width: 1200px;
+    max-widrgba(255, 255, 255, 0.479)200px;
     min-height: 300px;
     margin: 0 auto;
     padding-top: 100px;
