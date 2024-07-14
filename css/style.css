@@ -362,7 +362,7 @@ h1 {
     min-height: 300px;
     max-width: 1000px;
     margin: 0 auto;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -375,4 +375,54 @@ h1 {
     background-color: white;
     border: none;
     margin-bottom: 100px;
+}
+
+/* WHY? */
+
+/* FOOTER */
+
+footer {
+    color: white;
+    background-color: black;
+}
+
+.container-foot {
+    max-width: 1200px;
+    min-height: 300px;
+    margin: 0 auto;
+    padding-top: 100px;
+}
+
+.col-foot {
+    flex-basis: calc(100% / 5);
+    height: 200px;
+}
+
+.foot-list {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.foot-list h3 {
+    margin-bottom: 10px;
+}
+
+.line-foot {
+    height: 100px;
+    width: 100px;
+    border-bottom: 1px solid white;
+}
+
+.foot-line-language {
+    max-width: 1200px;
+    min-height: 80px;
+    margin: 0 auto;
+    padding-bottom: 50px;
+}
+
+.line-foot {
+    width: 100px;
+    border-bottom: 1px solid white;
+    margin-bottom: 50px;
 }
