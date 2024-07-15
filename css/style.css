@@ -129,38 +129,51 @@ h1 {
     margin: 0 auto;
 }
 
-.container-prices{
+.container-list-price{
     background-color: white;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 50px;
 }
 
-.col {
+.list-col {
     flex-basis: calc(100% / 3 - 100px / 3);
-    border: 1px solid lightgrey;
+    border: 1px solid rgb(155, 155, 155);
     flex-grow: 1;
 }
 
-.col-title {
-    text-align: center;
+.title-list {
+    justify-content: center;
     margin: 10px 0 10px 0;
 }
 
-.col-content {
-    max-width: 80%;
-    margin-left: 30px;
-    margin-top: 40px;
-    margin-bottom: 100px;
+.list-price {
     flex-direction: column;
+    align-items: flex-start;
     gap: 20px;
 }
 
+.mensility {
+    color: rgb(155, 155, 155);
+    margin-bottom: 20px;
+}
+
+.line-prices {
+    width: 100%;
+    border-bottom: 1px solid rgb(155, 155, 155);
+    margin-bottom: 20px;
+}
+
+.line-prices-short {
+    width: 50px;
+    border-bottom: 1px solid rgb(155, 155, 155);
+    margin: 20px 0 20px 0;
+}
+
+
 .button-prova {
     padding: 15px 40px;
-    margin: 0 auto;
-    margin-top: 40px;
-    margin-bottom: 20px;
+    margin: 20px 0 20px 0;
 }
 
 .check {
@@ -173,11 +186,6 @@ h1 {
     margin-right: 5px;
 }
 
-.separation {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    width: 20%;
-}
 
 .bill {
     margin-right: 50px;
@@ -187,10 +195,6 @@ h1 {
     border: 5px solid blue;
 }
 
-.mensility {
-    margin-bottom: 40px;
-    color: grey;
-}
 
 .billing {
     margin-bottom: 50px;
@@ -204,10 +208,6 @@ h1 {
 .button-last {
     padding: 15px 40px;
     margin-right: -70px;
-}
-
-.last-column {
-    justify-content: space-between;
 }
 
 
