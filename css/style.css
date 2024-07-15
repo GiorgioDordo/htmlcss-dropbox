@@ -41,6 +41,10 @@ h3 {
     font-size: 24px;
 }
 
+.button:hover {
+    border: 1px solid rgb(0, 0, 173);
+}
+
 
 /* HEADER */
 
@@ -58,6 +62,7 @@ h3 {
     right: 0;
     z-index: 1;
 }
+
 
 header a {
     text-decoration: none;
@@ -78,6 +83,7 @@ img {
 .button {
     padding: 7px 10px;
     background-color: rgb(2,97,255);
+    border: 1px solid blue;
     color: white;
     border: none;
 }
@@ -257,6 +263,10 @@ h1 {
     background-color: white;
 }
 
+.button-contact:hover {
+    border: 1px solid;
+}
+
 /* OPERATIONS */
 
 .operations {
@@ -383,6 +393,10 @@ h1 {
     background-color: white;
     border: none;
     margin-bottom: 100px;
+}
+
+.btn-free-period:hover {
+    border: 1px solid;
 }
 
 /* QUESTIONS */
